@@ -86,7 +86,7 @@ Modifique a URL do servidor Zabbix no código para apontar para o seu servidor:
 
 ```Code:
 
-zapi = ZabbixAPI("http://192.168.20.238")
+zapi = ZabbixAPI("http://URL SERVIDOR")
 
 zapi.login("seu usuário", "sua senha")
 
