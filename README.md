@@ -140,9 +140,7 @@ python zabbix.py
 
  
 
-start_automation()
-
- 
+`start_automation()`:
 
 Esta função inicializa um WebDriver (Firefox) (Você pode escolher o navegador de sua preferência)
 
@@ -150,19 +148,16 @@ e navega para um link específico onde a automação ocorrerá. A automação qu
 
  
 
-monitor_trigger(label)
+`monitor_trigger(label)`:
 
- 
 
-Esta função cria uma conexão com o servidor Zabbix e monitora triggers específicas.
+A função cria uma conexão com o servidor Zabbix e monitora triggers específicas.
 
 Se uma trigger de alta prioridade for detectada para um host específico, a automação é iniciada.
 
  
 
-create_interface()
-
- 
+`create_interface()`:
 
 Esta função cria a interface gráfica usando CustomTkinter.
 
