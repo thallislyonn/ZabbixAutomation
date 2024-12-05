@@ -116,7 +116,7 @@ A interface exibirá uma mensagem e iniciará a automação caso a trigger do Za
 
 ```Code:
 
-python zabbix.py
+python automationzabbix.py
 
 ```
 
